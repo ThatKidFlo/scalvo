@@ -3,8 +3,10 @@ package iv
 import iv.config.constants.Constants
 import iv.config.constants.Constants._
 import iv.marshalling.api.AddressBookConverter
+import iv.marshalling.impl.FileAddressBookConverter
 import iv.model.AddressEntry
 import iv.repository.api.AddressBookRepository
+import iv.repository.impl.FileAddressBookRepository
 import iv.service.{BillOlderThanPaulInDays, CountMales, OldestPerson}
 
 import scala.util.Properties
