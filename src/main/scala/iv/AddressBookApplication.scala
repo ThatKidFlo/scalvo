@@ -40,9 +40,14 @@ object AddressBookApplication {
       .flatMap(converter.deserialize)
       .toList
 
-    questions map {
-      case (id, question) => id -> question(contacts)
-    } foreach println
+    if(contacts.isEmpty) {
+      println(s"[ERROR] >>>> List of contacts was empty. There was an error reading or parsing all the contacts.")
+    } else {
+      println(s"[INFO] >>>> Answers:")
+      questions map {
+        case (id, question) => s"$id. ${question(contacts)}"
+      } foreach println
+    }
   }
 }
 
