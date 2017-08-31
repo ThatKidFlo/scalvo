@@ -7,7 +7,7 @@
     <groupId>com.upt.cti.barbuceanu</groupId>
     <artifactId>scalvo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>fpinscala</name>
+    <name>scalvo</name>
 
     <properties>
         <scala.maven.plugin.version>3.2.1</scala.maven.plugin.version>
