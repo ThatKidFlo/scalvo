@@ -1,9 +1,11 @@
-package iv
+package iv.marshalling.impl
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-import iv.Constants._
+import iv.config.constants.Constants._
+import iv.marshalling.api.AddressBookConverter
+import iv.model.{AddressEntry, Gender}
 
 import scala.util.Try
 

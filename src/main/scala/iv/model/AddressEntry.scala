@@ -1,4 +1,4 @@
-package iv
+package iv.model
 
 import java.time.LocalDate
 

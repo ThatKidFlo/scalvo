@@ -1,4 +1,6 @@
-package iv
+package iv.repository.impl
+
+import iv.repository.api.AddressBookRepository
 
 /**
   * Created by Florin-Gabriel Barbuceanu on 01/09/2017.

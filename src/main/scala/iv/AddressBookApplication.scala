@@ -1,6 +1,11 @@
 package iv
 
-import iv.Constants._
+import iv.config.constants.Constants
+import iv.config.constants.Constants._
+import iv.marshalling.api.AddressBookConverter
+import iv.model.AddressEntry
+import iv.repository.api.AddressBookRepository
+import iv.service.{BillOlderThanPaulInDays, CountMales, OldestPerson}
 
 import scala.util.Properties
 

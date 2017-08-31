@@ -1,4 +1,4 @@
-package iv
+package iv.model
 
 /**
   * Created by Florin-Gabriel Barbuceanu on 01/09/2017.

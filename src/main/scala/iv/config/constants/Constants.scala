@@ -1,4 +1,4 @@
-package iv
+package iv.config.constants
 
 /**
   * Created by Florin-Gabriel Barbuceanu on 31/08/2017.

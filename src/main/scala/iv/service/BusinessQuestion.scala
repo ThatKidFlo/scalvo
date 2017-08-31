@@ -1,6 +1,7 @@
-package iv
+package iv.service
 
-import iv.Constants._
+import iv.config.constants.Constants._
+import iv.model.{AddressEntry, Male}
 
 /**
   * Created by Florin-Gabriel Barbuceanu on 01/09/2017.
